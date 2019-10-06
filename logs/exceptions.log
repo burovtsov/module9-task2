@@ -1,0 +1,558 @@
+2019-10-04T15:19:57,339 INFO- java.nio.file.FileAlreadyExistsException: D:skillbox2
+2019-10-04T15:59:47,403 INFO- java.lang.NullPointerException
+2019-10-05T10:03:29,485 ERROR- C:\$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+2019-10-05T10:04:38,483 ERROR- C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+2019-10-05T10:07:28,609 ERROR- C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000>>> null [Ljava.lang.StackTraceElement;@569cfc36
+2019-10-05T10:09:33,123 ERROR- java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+2019-10-05T10:10:56,409 ERROR- java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+2019-10-05T10:12:54,599 ERROR- java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000 >>> [Ljava.lang.StackTraceElement;@569cfc36
+2019-10-05T10:26:46,120 ERROR- java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:518)
+	at java.nio.file.Files.newDirectoryStream(Files.java:457)
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300)
+	at java.nio.file.FileTreeWalker.next(FileTreeWalker.java:372)
+	at java.nio.file.Files.walkFileTree(Files.java:2706)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:36)
+
+2019-10-05T10:28:10,773 ERROR- java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+STACK TRACE:
+java.nio.file.AccessDeniedException: C:$Recycle.Bin\S-1-5-21-3191478910-2725259262-592141239-1000
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:518)
+	at java.nio.file.Files.newDirectoryStream(Files.java:457)
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300)
+	at java.nio.file.FileTreeWalker.next(FileTreeWalker.java:372)
+	at java.nio.file.Files.walkFileTree(Files.java:2706)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:36)
+
+2019-10-05T10:31:30,992 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Main.main(Main.java:39)
+
+2019-10-05T10:44:54,125 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,310 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2HEAD
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2HEAD
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,310 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,508 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,508 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,520 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2compiler.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2compiler.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,521 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2misc.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2misc.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,527 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2workspace.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2workspace.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,548 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2exceptions.log
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2exceptions.log
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,548 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pom.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pom.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,554 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.java
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.java
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,571 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,571 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,572 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.class
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.class
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,599 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2COMMIT_EDITMSG
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2COMMIT_EDITMSG
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,600 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2config
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2config
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,600 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2description
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2description
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,601 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2FETCH_HEAD
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2FETCH_HEAD
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,601 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2HEAD
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2HEAD
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,602 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2applypatch-msg.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2applypatch-msg.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,603 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2commit-msg.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2commit-msg.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,603 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2fsmonitor-watchman.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2fsmonitor-watchman.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,624 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2post-update.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2post-update.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,625 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-applypatch.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-applypatch.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,625 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-commit.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-commit.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,626 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-push.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-push.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,627 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-rebase.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-rebase.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,627 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-receive.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pre-receive.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,628 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2prepare-commit-msg.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2prepare-commit-msg.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,628 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2update.sample
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2update.sample
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,629 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2index
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2index
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,629 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2exclude
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2exclude
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,629 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2HEAD
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2HEAD
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,630 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:54,630 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,362 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2ORIG_HEAD
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2ORIG_HEAD
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,363 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,364 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2master
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,364 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2.gitignore
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2.gitignore
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,365 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2compiler.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2compiler.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,368 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2misc.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2misc.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,376 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2vcs.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2vcs.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,376 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2workspace.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2workspace.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,377 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2exceptions.log
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2exceptions.log
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,385 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2pom.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2pom.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,474 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.java
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.java
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,489 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,523 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2log4j2.xml
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,523 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.class
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2Main.class
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T10:44:55,524 ERROR- java.nio.file.FileAlreadyExistsException: D:\skillbox2map.json
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\skillbox2map.json
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at Copier.copy(Copier.java:13)
+	at Main.main(Main.java:37)
+
+2019-10-05T11:09:11,092 ERROR- java.nio.file.InvalidPathException: Illegal char <:> at index 14: D:\skillbox2/D:\skillbox\CopyDirectory\.idea\compiler.xml
+STACK TRACE:
+java.nio.file.InvalidPathException: Illegal char <:> at index 14: D:\skillbox2/D:\skillbox\CopyDirectory\.idea\compiler.xml
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at Copier.copy(Copier.java:18)
+	at Main.main(Main.java:37)
+
+2019-10-07T00:18:27,568 ERROR- java.nio.file.NoSuchFileException: C:\skillbox2\CopyDirectory\.idea
+STACK TRACE:
+java.nio.file.NoSuchFileException: C:\skillbox2\CopyDirectory\.idea
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at Copier.copy(Copier.java:19)
+	at Main.main(Main.java:21)
+
+2019-10-07T00:19:03,659 ERROR- java.nio.file.NoSuchFileException: C:\альбом
+STACK TRACE:
+java.nio.file.NoSuchFileException: C:\альбом
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219)
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322)
+	at java.nio.file.Files.walkFileTree(Files.java:2662)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Copier.copy(Copier.java:11)
+	at Main.main(Main.java:21)
+
+2019-10-07T00:27:07,106 ERROR- java.nio.file.NoSuchFileException: d:\sk\CopyDirectory\.idea
+STACK TRACE:
+java.nio.file.NoSuchFileException: d:\sk\CopyDirectory\.idea
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at Copier.copy(Copier.java:19)
+	at Main.main(Main.java:21)
+
+2019-10-07T00:29:25,685 ERROR- java.nio.file.NoSuchFileException: D:\sk\CopyDirectory\.idea
+STACK TRACE:
+java.nio.file.NoSuchFileException: D:\sk\CopyDirectory\.idea
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at Copier.copy(Copier.java:21)
+	at Main.main(Main.java:21)
+
