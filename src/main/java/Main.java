@@ -1,3 +1,4 @@
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
@@ -17,10 +18,11 @@ public class Main {
             System.out.println("Куда будем копировать?");
             Path whereCopy = Paths.get(scanner.nextLine());
 
-            Copier copier = new Copier();
-            copier.copy(whatCopy, whereCopy);
-            }
+            TreeMaker dirTree = new TreeMaker(whatCopy, whereCopy);
+            Files.walkFileTree(whatCopy, dirTree);
+            System.out.println("Копирование успешно завершено.");
 
+            }
             catch (Exception e) {
                 ExceptionLogger.logIt(e);
             }

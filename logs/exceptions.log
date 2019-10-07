@@ -556,3 +556,94 @@ java.nio.file.NoSuchFileException: D:\sk\CopyDirectory\.idea
 	at Copier.copy(Copier.java:21)
 	at Main.main(Main.java:21)
 
+2019-10-07T10:37:36,855 ERROR- java.nio.file.FileAlreadyExistsException: D:\dsk\CopyDirectory\.git\COMMIT_EDITMSG
+STACK TRACE:
+java.nio.file.FileAlreadyExistsException: D:\dsk\CopyDirectory\.git\COMMIT_EDITMSG
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at TreeMaker.visitFile(TreeMaker.java:24)
+	at TreeMaker.visitFile(TreeMaker.java:5)
+	at java.nio.file.Files.walkFileTree(Files.java:2670)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:22)
+
+2019-10-07T10:39:47,820 ERROR- java.nio.file.AccessDeniedException: C:\windows\system32\Com\dmp
+STACK TRACE:
+java.nio.file.AccessDeniedException: C:\windows\system32\Com\dmp
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:518)
+	at java.nio.file.Files.newDirectoryStream(Files.java:457)
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:300)
+	at java.nio.file.FileTreeWalker.next(FileTreeWalker.java:372)
+	at java.nio.file.Files.walkFileTree(Files.java:2706)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:22)
+
+2019-10-07T10:39:48,204 ERROR- java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+STACK TRACE:
+java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:205)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at TreeMaker.visitFile(TreeMaker.java:24)
+	at TreeMaker.visitFile(TreeMaker.java:5)
+	at java.nio.file.Files.walkFileTree(Files.java:2670)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:22)
+
+2019-10-07T10:41:33,854 ERROR- java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+STACK TRACE:
+java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:205)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at TreeMaker.visitFile(TreeMaker.java:24)
+	at TreeMaker.visitFile(TreeMaker.java:5)
+	at java.nio.file.Files.walkFileTree(Files.java:2670)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:22)
+
+2019-10-07T10:43:50,471 ERROR- java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+STACK TRACE:
+java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:205)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at TreeMaker.visitFile(TreeMaker.java:24)
+	at TreeMaker.visitFile(TreeMaker.java:5)
+	at java.nio.file.Files.walkFileTree(Files.java:2670)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:22)
+
+2019-10-07T10:49:41,239 ERROR- java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+STACK TRACE:
+java.nio.file.FileSystemException: C:\windows\system32\config\BBI -> D:\sys\config\BBI: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:205)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:278)
+	at java.nio.file.Files.copy(Files.java:1274)
+	at TreeMaker.visitFile(TreeMaker.java:24)
+	at TreeMaker.visitFile(TreeMaker.java:5)
+	at java.nio.file.Files.walkFileTree(Files.java:2670)
+	at java.nio.file.Files.walkFileTree(Files.java:2742)
+	at Main.main(Main.java:22)
+
